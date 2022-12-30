@@ -1,5 +1,5 @@
-Project with NREL lab at CSU. 
-IMmport the following code for the program to run properly:
+Project with NREL lab at CSU. Written in JS using Google Earth Engine.
+Import the following code for the program to run properly:
 
 var imageCollection = ee.ImageCollection("LANDSAT/LE07/C01/T1_SR"),
     roi = /* color: #d63000 */ee.Geometry.Point([-105.0053426794604, 40.49795986172582]),
