@@ -1,9 +1,4 @@
-// Display the result.
-// Map.centerObject(image, 10);
-// Map.addLayer(maxValue, {max: 13000}, 'Maximum value image');
-
-
-// NDVI
+// NDVI 
 var rgb_vis = {min: 0, max: 0.3, bands: ['B4', 'B3', 'B2']};
 var filtered = imageCollection2.filterDate('2018-06-01', '2018-07-30')
   .filterBounds(roi);
